@@ -1,0 +1,149 @@
+*{margin: 0;padding:0}
+body{
+    margin: 0px;
+    width: 100%;
+    min-width: 375px;
+    max-width: 100%;
+    background-color: rgb(204, 218, 209);
+}
+
+.wp{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+.z{
+    float: left;
+}
+.y{
+    float: right;
+}
+.cl{
+    clear: both;
+}
+.mr_0{
+    margin: 0;
+}
+img{
+   border: none;
+}
+
+.top{
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    background: #303030;
+    color: #d8d8d8;
+   
+}
+.top span{
+    margin-right: 15px;
+
+}
+.top span.mr_0{
+    margin: 0px;
+}
+
+.top a{
+    color:#d8d8d8;
+    text-decoration: none;
+        
+}
+.top a:hover{
+    color:#f60
+        
+}
+.logos{
+    height: 59px;
+    margin: 15px 0px;
+   
+}
+.sousuo{
+    width: 330px;
+    height: 41px;
+    margin-top: 8px;
+    
+}
+.sousuo td{
+    height: 41px;
+}
+.s_c input{
+    height: 37px;
+    line-height: 35px;
+    border-bottom-left-radius: inherit;
+    border-color: rgb(1, 10, 10);
+    width: 200px;
+}
+.s_y button{
+    width: 78px;
+    height: 41px;
+    background: none;
+    cursor: pointer;
+    border-left: solid 1px rgb(24, 23, 23);
+
+}
+.s_y button:hover{
+    background-color: tomato;
+
+}
+.dianhua{
+    height: 59px;
+    line-height: 59px;
+    margin-left: 15px;
+}
+.dianhua span{
+    font-size: 26px;
+    color: darkred;
+}
+.header{
+    background-color: aquamarine;
+    width: 100%;
+}
+.foto{
+    height:59px;
+    width: 100px;
+}
+
+.nav img{
+    position: relative;
+    top: -113px;
+    width: 30px;
+    height: 24px;
+}
+.z{
+    display: none;
+}
+@media(min-width:1050px){
+    .z{
+        display: block;
+
+    }
+    
+    
+    .ad{
+        display: none;
+    }
+
+}
+.ad{
+    float: left;
+    margin-top: 0px;
+}
+.cellulare{
+    margin-top: -30px;
+}
+.dianhua{
+    display: none;
+}
+@media(min-width:1050px){
+    .dianhua{
+        display: block;
+
+    }
+    
+    
+    .ad{
+        display: none;
+    }
+
+}
